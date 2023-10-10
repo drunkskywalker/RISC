@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.team12.client.AppTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2023-04-11T20:05:59" hostname="DSR" time="0.001">
+  <properties/>
+  <testcase name="test()" classname="edu.duke.ece651.team12.client.AppTest" time="0.001">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1681186238187" clover="4.4.1">
+   <project name="server" timestamp="1681186238024">
+      <metrics coveredelements="4" complexity="126" loc="1417" methods="38" classes="14" statements="644" packages="1" coveredconditionals="0" coveredmethods="1" elements="826" ncloc="1038" files="6" conditionals="144" coveredstatements="3"/>
+      <package name="edu.duke.ece651.team12.server">
+         <metrics coveredelements="4" complexity="126" loc="1417" methods="38" classes="14" statements="644" coveredconditionals="0" coveredmethods="1" elements="826" ncloc="1038" files="6" conditionals="144" coveredstatements="3"/>
+         <file path="/home/dsr/ece651/ece651-team12-risc/server/src/main/java/edu/duke/ece651/team12/server/V2Server.java" name="V2Server.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="20" loc="186" coveredmethods="0" methods="8" elements="116" classes="3" ncloc="164" statements="86" conditionals="22" coveredstatements="0"/>
+            <class name="V2Server">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="15" coveredmethods="0" methods="4" elements="105" statements="79" conditionals="22" coveredstatements="0"/>
+            </class>
+            <class name="V2Server.RegLogin">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="3" coveredmethods="0" methods="2" elements="6" statements="4" conditionals="0" coveredstatements="0"/>
+            </class>
+            <class name="V2Server.RunGame">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="2" coveredmethods="0" methods="2" elements="5" statements="3" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="RegLogin(Socket)" num="36" count="0" type="method"/>
+            <line num="36" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="run() : void" num="37" count="0" type="method"/>
+            <line num="39" count="0" type="stmt"/>
+            <line num="40" count="0" type="stmt"/>
+            <line num="43" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="V2Server(int)" num="51" count="0" type="method"/>
+            <line num="51" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="init() : void" num="53" count="0" type="method"/>
+            <line num="54" count="0" type="stmt"/>
+            <line num="55" count="0" type="stmt"/>
+            <line num="56" count="0" type="stmt"/>
+            <line num="57" count="0" type="stmt"/>
+            <line num="58" count="0" type="stmt"/>
+            <line complexity="5" visibility="public" signature="main() : void" num="61" count="0" type="method"/>
+            <line num="62" count="0" type="stmt"/>
+            <line num="63" count="0" type="stmt"/>
+            <line num="64" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="64" type="cond"/>
+            <line num="65" count="0" type="stmt"/>
+            <line num="67" count="0" type="stmt"/>
+            <line num="68" count="0" type="stmt"/>
+            <line num="69" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="69" type="cond"/>
+            <line num="70" count="0" type="stmt"/>
+            <line num="71" count="0" type="stmt"/>
+            <line num="72" count="0" type="stmt"/>
+            <line num="73" count="0" type="stmt"/>
+            <line num="74" count="0" type="stmt"/>
+            <line num="75" count="0" type="stmt"/>
+            <line num="76" count="0" type="stmt"/>
+            <line num="78" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="78" type="cond"/>
+            <line num="79" count="0" type="stmt"/>
+            <line num="80" count="0" type="stmt"/>
+            <line num="81" count="0" type="stmt"/>
+            <line num="82" count="0" type="stmt"/>
+            <line num="83" count="0" type="stmt"/>
+            <line num="84" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="84" type="cond"/>
+            <line num="85" count="0" type="stmt"/>
+            <line num="86" count="0" type="stmt"/>
+            <line complexity="8" visibility="private" signature="handle_connection(Socket) : void" num="93" count="0" type="method"/>
+            <line num="95" count="0" type="stmt"/>
+            <line num="96" count="0" type="stmt"/>
+            <line num="97" count="0" type="stmt"/>
+            <line num="98" count="0" type="stmt"/>
+            <line num="99" count="0" type="stmt"/>
+            <line num="101" count="0" type="stmt"/>
+            <line num="102" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="102" type="cond"/>
+            <line num="103" count="0" type="stmt"/>
+            <line num="104" count="0" type="stmt"/>
+            <line num="105" count="0" type="stmt"/>
+            <line num="106" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="106" type="cond"/>
+            <line num="108" count="0" type="stmt"/>
+            <line num="111" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="111" type="cond"/>
+            <line num="112" count="0" type="stmt"/>
+            <line num="116" count="0" type="stmt"/>
+            <line num="117" count="0" type="stmt"/>
+            <line num="118" count="0" type="stmt"/>
+            <line num="119" count="0" type="stmt"/>
+            <line num="120" count="0" type="stmt"/>
+            <line num="121" count="0" type="stmt"/>
+            <line num="122" count="0" type="stmt"/>
+            <line num="123" count="0" type="stmt"/>
+            <line num="124" count="0" type="stmt"/>
+            <line num="125" count="0" type="stmt"/>
+            <line num="126" count="0" type="stmt"/>
+            <line num="129" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="129" type="cond"/>
+            <line num="130" count="0" type="stmt"/>
+            <line num="131" count="0" type="stmt"/>
+            <line num="132" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="132" type="cond"/>
+            <line num="133" count="0" type="stmt"/>
+            <line num="136" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="136" type="cond"/>
+            <line num="137" count="0" type="stmt"/>
+            <line num="140" count="0" type="stmt"/>
+            <line num="141" count="0" type="stmt"/>
+            <line num="142" count="0" type="stmt"/>
+            <line num="143" count="0" type="stmt"/>
+            <line num="144" count="0" type="stmt"/>
+            <line num="145" count="0" type="stmt"/>
+            <line num="146" count="0" type="stmt"/>
+            <line num="152" count="0" type="stmt"/>
+            <line num="155" count="0" type="stmt"/>
+            <line num="156" count="0" type="stmt"/>
+            <line num="157" count="0" type="stmt"/>
+            <line num="158" count="0" type="stmt"/>
+            <line num="162" count="0" type="stmt"/>
+            <line num="163" count="0" type="stmt"/>
+            <line num="164" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="164" type="cond"/>
+            <line num="165" count="0" type="stmt"/>
+            <line num="168" count="0" type="stmt"/>
+            <line num="169" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="RunGame(int,Game,ArrayList&lt;Integer&gt;)" num="177" count="0" type="method"/>
+            <line num="178" count="0" type="stmt"/>
+            <line num="179" count="0" type="stmt"/>
+            <line num="180" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="run() : void" num="183" count="0" type="method"/>
+         </file>
+         <file path="/home/dsr/ece651/ece651-team12-risc/server/src/main/java/edu/duke/ece651/team12/server/V3Server.java" name="V3Server.java">
+            <metrics coveredelements="4" coveredconditionals="0" complexity="79" loc="834" coveredmethods="1" methods="19" elements="574" classes="5" ncloc="665" statements="453" conditionals="102" coveredstatements="3"/>
+            <class name="V3Server">
+               <metrics coveredelements="4" coveredconditionals="0" complexity="13" coveredmethods="1" methods="5" elements="100" statements="81" conditionals="14" coveredstatements="3"/>
+            </class>
+            <class name="V3Server.OnlineMonitor">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="4" coveredmethods="0" methods="1" elements="14" statements="9" conditionals="4" coveredstatements="0"/>
+            </class>
+            <class name="V3Server.Transmiter">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="16" coveredmethods="0" methods="4" elements="154" statements="130" conditionals="20" coveredstatements="0"/>
+            </class>
+            <class name="V3Server.InitGame">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="10" coveredmethods="0" methods="2" elements="71" statements="61" conditionals="8" coveredstatements="0"/>
+            </class>
+            <class name="V3Server.RunnableGame">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="36" coveredmethods="0" methods="7" elements="235" statements="172" conditionals="56" coveredstatements="0"/>
+            </class>
+            <line complexity="2" visibility="public" signature="V3Server(int)" num="26" count="1" type="method"/>
+            <line num="27" count="1" type="stmt"/>
+            <line num="29" count="1" type="stmt"/>
+            <line num="30" count="1" type="stmt"/>
+            <line num="33" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="init() : void" num="37" count="0" type="method"/>
+            <line num="37" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="serve() : void" num="38" count="0" type="method"/>
+            <line num="39" count="0" type="stmt"/>
+            <line num="41" count="0" type="stmt"/>
+            <line num="43" count="0" type="stmt"/>
+            <line num="44" count="0" type="stmt"/>
+            <line num="45" count="0" type="stmt"/>
+            <line num="46" count="0" type="stmt"/>
+            <line num="47" count="0" type="stmt"/>
+            <line complexity="4" visibility="public" signature="run() : void" num="52" count="0" type="method"/>
+            <line num="53" count="0" type="stmt"/>
+            <line num="54" count="0" type="stmt"/>
+            <line num="55" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="55" type="cond"/>
+            <line num="56" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="56" type="cond"/>
+            <line num="57" count="0" type="stmt"/>
+            <line num="58" count="0" type="stmt"/>
+            <line num="59" count="0" type="stmt"/>
+            <line num="65" count="0" type="stmt"/>
+            <line num="66" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="Transmiter(int,int,RunnableGame,LinkedBlockingQueue&lt;Object&gt;,LinkedBlockingQueue&lt;Object&gt;)" num="81" count="0" type="method"/>
+            <line num="86" count="0" type="stmt"/>
+            <line num="87" count="0" type="stmt"/>
+            <line num="88" count="0" type="stmt"/>
+            <line num="89" count="0" type="stmt"/>
+            <line num="90" count="0" type="stmt"/>
+            <line num="91" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="Transmiter(int,RunnableGame)" num="93" count="0" type="method"/>
+            <line num="94" count="0" type="stmt"/>
+            <line complexity="3" visibility="private" signature="init_game(ObjectInputStream,ObjectOutputStream) : void" num="97" count="0" type="method"/>
+            <line num="99" count="0" type="stmt"/>
+            <line num="100" count="0" type="stmt"/>
+            <line num="101" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="101" type="cond"/>
+            <line num="103" count="0" type="stmt"/>
+            <line num="105" count="0" type="stmt"/>
+            <line num="106" count="0" type="stmt"/>
+            <line num="108" count="0" type="stmt"/>
+            <line num="109" count="0" type="stmt"/>
+            <line num="110" count="0" type="stmt"/>
+            <line num="112" count="0" type="stmt"/>
+            <line num="113" count="0" type="stmt"/>
+            <line num="115" count="0" type="stmt"/>
+            <line num="116" count="0" type="stmt"/>
+            <line num="118" count="0" type="stmt"/>
+            <line num="120" count="0" type="stmt"/>
+            <line num="121" count="0" type="stmt"/>
+            <line num="123" count="0" type="stmt"/>
+            <line num="124" count="0" type="stmt"/>
+            <line num="125" count="0" type="stmt"/>
+            <line num="126" count="0" type="stmt"/>
+            <line num="128" count="0" type="stmt"/>
+            <line num="129" count="0" type="stmt"/>
+            <line num="131" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="131" type="cond"/>
+            <line num="133" count="0" type="stmt"/>
+            <line num="134" count="0" type="stmt"/>
+            <line num="137" count="0" type="stmt"/>
+            <line num="138" count="0" type="stmt"/>
+            <line num="140" count="0" type="stmt"/>
+            <line num="142" count="0" type="stmt"/>
+            <line num="143" count="0" type="stmt"/>
+            <line num="144" count="0" type="stmt"/>
+            <line num="145" count="0" type="stmt"/>
+            <line num="147" count="0" type="stmt"/>
+            <line num="148" count="0" type="stmt"/>
+            <line num="149" count="0" type="stmt"/>
+            <line num="150" count="0" type="stmt"/>
+            <line num="151" count="0" type="stmt"/>
+            <line num="152" count="0" type="stmt"/>
+            <line num="153" count="0" type="stmt"/>
+            <line num="154" count="0" type="stmt"/>
+            <line num="155" count="0" type="stmt"/>
+            <line num="156" count="0" type="stmt"/>
+            <line num="157" count="0" type="stmt"/>
+            <line num="158" count="0" type="stmt"/>
+            <line num="159" count="0" type="stmt"/>
+            <line complexity="11" visibility="public" signature="run() : void" num="162" count="0" type="method"/>
+            <line num="164" count="0" type="stmt"/>
+            <line num="165" count="0" type="stmt"/>
+            <line num="166" count="0" type="stmt"/>
+            <line num="167" count="0" type="stmt"/>
+            <line num="169" count="0" type="stmt"/>
+            <line num="172" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="172" type="cond"/>
+            <line num="173" count="0" type="stmt"/>
+            <line num="176" count="0" type="stmt"/>
+            <line num="177" count="0" type="stmt"/>
+            <line num="179" count="0" type="stmt"/>
+            <line num="180" count="0" type="stmt"/>
+            <line num="181" count="0" type="stmt"/>
+            <line num="182" count="0" type="stmt"/>
+            <line num="183" count="0" type="stmt"/>
+            <line num="184" count="0" type="stmt"/>
+            <line num="185" count="0" type="stmt"/>
+            <line num="186" count="0" type="stmt"/>
+            <line num="187" count="0" type="stmt"/>
+            <line num="188" count="0" type="stmt"/>
+            <line num="189" count="0" type="stmt"/>
+            <line num="190" count="0" type="stmt"/>
+            <line num="191" count="0" type="stmt"/>
+            <line num="192" count="0" type="stmt"/>
+            <line num="193" count="0" type="stmt"/>
+            <line num="195" count="0" type="stmt"/>
+            <line num="197" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="197" type="cond"/>
+            <line num="198" count="0" type="stmt"/>
+            <line num="201" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="201" type="cond"/>
+            <line num="208" count="0" type="stmt"/>
+            <line num="209" count="0" type="stmt"/>
+            <line num="210" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="210" type="cond"/>
+            <line num="214" count="0" type="stmt"/>
+            <line num="215" count="0" type="stmt"/>
+            <line num="216" count="0" type="stmt"/>
+            <line num="218" count="0" type="stmt"/>
+            <line num="220" count="0" type="stmt"/>
+            <line num="222" count="0" type="stmt"/>
+            <line num="223" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="223" type="cond"/>
+            <line num="225" count="0" type="stmt"/>
+            <line num="226" count="0" type="stmt"/>
+            <line num="228" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="228" type="cond"/>
+            <line num="230" count="0" type="stmt"/>
+            <line num="232" count="0" type="stmt"/>
+            <line num="234" count="0" type="stmt"/>
+            <line num="235" count="0" type="stmt"/>
+            <line num="236" count="0" type="stmt"/>
+            <line num="237" count="0" type="stmt"/>
+            <line num="239" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="239" type="cond"/>
+            <line num="240" count="0" type="stmt"/>
+            <line num="241" count="0" type="stmt"/>
+            <line num="243" count="0" type="stmt"/>
+            <line num="247" count="0" type="stmt"/>
+            <line num="248" count="0" type="stmt"/>
+            <line num="250" count="0" type="stmt"/>
+            <line num="251" count="0" type="stmt"/>
+            <line num="253" count="0" type="stmt"/>
+            <line num="254" count="0" type="stmt"/>
+            <line num="255" count="0" type="stmt"/>
+            <line num="256" count="0" type="stmt"/>
+            <line num="258" count="0" type="stmt"/>
+            <line num="259" count="0" type="stmt"/>
+            <line num="261" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="261" type="cond"/>
+            <line num="263" count="0" type="stmt"/>
+            <line num="267" count="0" type="stmt"/>
+            <line num="270" count="0" type="stmt"/>
+            <line num="271" count="0" type="stmt"/>
+            <line num="272" count="0" type="stmt"/>
+            <line num="273" count="0" type="stmt"/>
+            <line num="274" count="0" type="stmt"/>
+            <line num="275" count="0" type="stmt"/>
+            <line num="282" count="0" type="stmt"/>
+            <line num="283" count="0" type="stmt"/>
+            <line num="284" count="0" type="stmt"/>
+            <line num="285" count="0" type="stmt"/>
+            <line num="286" count="0" type="stmt"/>
+            <line num="287" count="0" type="stmt"/>
+            <line num="288" count="0" type="stmt"/>
+            <line num="290" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="InitGame(Socket)" num="298" count="0" type="method"/>
+            <line num="298" count="0" type="stmt"/>
+            <line complexity="9" visibility="public" signature="run() : void" num="299" count="0" type="method"/>
+            <line num="301" count="0" type="stmt"/>
+            <line num="302" count="0" type="stmt"/>
+            <line num="303" count="0" type="stmt"/>
+            <line num="304" count="0" type="stmt"/>
+            <line num="305" count="0" type="stmt"/>
+            <line num="307" count="0" type="stmt"/>
+            <line num="309" count="0" type="stmt"/>
+            <line num="310" count="0" type="stmt"/>
+            <line num="312" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="312" type="cond"/>
+            <line num="313" count="0" type="stmt"/>
+            <line num="316" count="0" type="stmt"/>
+            <line num="318" count="0" type="stmt"/>
+            <line num="319" count="0" type="stmt"/>
+            <line num="320" count="0" type="stmt"/>
+            <line num="321" count="0" type="stmt"/>
+            <line num="324" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="324" type="cond"/>
+            <line num="325" count="0" type="stmt"/>
+            <line num="326" count="0" type="stmt"/>
+            <line num="328" count="0" type="stmt"/>
+            <line num="329" count="0" type="stmt"/>
+            <line num="330" count="0" type="stmt"/>
+            <line num="332" count="0" type="stmt"/>
+            <line num="333" count="0" type="stmt"/>
+            <line num="335" count="0" type="stmt"/>
+            <line num="336" count="0" type="stmt"/>
+            <line num="337" count="0" type="stmt"/>
+            <line num="338" count="0" type="stmt"/>
+            <line num="340" count="0" type="stmt"/>
+            <line num="341" count="0" type="stmt"/>
+            <line num="342" count="0" type="stmt"/>
+            <line num="345" count="0" type="stmt"/>
+            <line num="346" count="0" type="stmt"/>
+            <line num="348" count="0" type="stmt"/>
+            <line num="349" count="0" type="stmt"/>
+            <line num="355" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="355" type="cond"/>
+            <line num="356" count="0" type="stmt"/>
+            <line num="357" count="0" type="stmt"/>
+            <line num="358" count="0" type="stmt"/>
+            <line num="359" count="0" type="stmt"/>
+            <line num="361" count="0" type="stmt"/>
+            <line num="362" count="0" type="stmt"/>
+            <line num="363" count="0" type="stmt"/>
+            <line num="364" count="0" type="stmt"/>
+            <line num="365" count="0" type="stmt"/>
+            <line num="366" count="0" type="stmt"/>
+            <line num="368" count="0" type="stmt"/>
+            <line num="371" count="0" type="stmt"/>
+            <line num="373" count="0" type="stmt"/>
+            <line num="375" count="0" type="stmt"/>
+            <line num="376" count="0" type="stmt"/>
+            <line num="381" count="0" type="stmt"/>
+            <line num="382" count="0" type="stmt"/>
+            <line num="383" count="0" type="stmt"/>
+            <line num="388" count="0" type="stmt"/>
+            <line num="389" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="389" type="cond"/>
+            <line num="390" count="0" type="stmt"/>
+            <line num="392" count="0" type="stmt"/>
+            <line num="393" count="0" type="stmt"/>
+            <line num="394" count="0" type="stmt"/>
+            <line num="396" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="RunnableGame(int,int,int)" num="415" count="0" type="method"/>
+            <line num="416" count="0" type="stmt"/>
+            <line num="417" count="0" type="stmt"/>
+            <line num="418" count="0" type="stmt"/>
+            <line num="419" count="0" type="stmt"/>
+            <line complexity="4" visibility="public" signature="join(int) : void" num="422" count="0" type="method"/>
+            <line num="423" count="0" type="stmt"/>
+            <line num="424" count="0" type="stmt"/>
+            <line num="425" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="425" type="cond"/>
+            <line num="429" count="0" type="stmt"/>
+            <line num="432" count="0" type="stmt"/>
+            <line num="433" count="0" type="stmt"/>
+            <line num="436" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="436" type="cond"/>
+            <line num="437" count="0" type="stmt"/>
+            <line num="439" count="0" type="stmt"/>
+            <line num="440" count="0" type="stmt"/>
+            <line num="441" count="0" type="stmt"/>
+            <line num="442" count="0" type="stmt"/>
+            <line num="444" count="0" type="stmt"/>
+            <line num="446" count="0" type="stmt"/>
+            <line num="448" count="0" type="stmt"/>
+            <line num="449" count="0" type="stmt"/>
+            <line num="450" count="0" type="stmt"/>
+            <line num="451" count="0" type="stmt"/>
+            <line num="452" count="0" type="stmt"/>
+            <line num="453" count="0" type="stmt"/>
+            <line num="454" count="0" type="stmt"/>
+            <line num="456" count="0" type="stmt"/>
+            <line num="458" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="458" type="cond"/>
+            <line num="459" count="0" type="stmt"/>
+            <line num="460" count="0" type="stmt"/>
+            <line num="461" count="0" type="stmt"/>
+            <line num="462" count="0" type="stmt"/>
+            <line num="466" count="0" type="stmt"/>
+            <line num="467" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="joinable() : boolean" num="471" count="0" type="method"/>
+            <line num="472" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="472" type="cond"/>
+            <line num="473" count="0" type="stmt"/>
+            <line num="476" count="0" type="stmt"/>
+            <line num="478" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="describe() : String" num="480" count="0" type="method"/>
+            <line num="481" count="0" type="stmt"/>
+            <line num="482" count="0" type="stmt"/>
+            <line num="483" count="0" type="stmt"/>
+            <line num="484" count="0" type="stmt"/>
+            <line complexity="9" visibility="public" signature="init_game() : void" num="487" count="0" type="method"/>
+            <line num="488" count="0" type="stmt"/>
+            <line num="489" count="0" type="stmt"/>
+            <line num="490" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="490" type="cond"/>
+            <line num="491" count="0" type="stmt"/>
+            <line num="493" count="0" type="stmt"/>
+            <line num="494" count="0" type="stmt"/>
+            <line num="496" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="496" type="cond"/>
+            <line num="497" count="0" type="stmt"/>
+            <line num="498" count="0" type="stmt"/>
+            <line num="500" count="0" type="stmt"/>
+            <line num="502" count="0" type="stmt"/>
+            <line num="505" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="505" type="cond"/>
+            <line num="507" count="0" type="stmt"/>
+            <line num="509" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="509" type="cond"/>
+            <line num="510" count="0" type="stmt"/>
+            <line num="516" count="0" type="stmt"/>
+            <line num="518" count="0" type="stmt"/>
+            <line num="519" count="0" type="stmt"/>
+            <line num="520" count="0" type="stmt"/>
+            <line num="521" count="0" type="stmt"/>
+            <line num="523" count="0" type="stmt"/>
+            <line num="526" count="0" type="stmt"/>
+            <line num="528" count="0" type="stmt"/>
+            <line num="529" count="0" type="stmt"/>
+            <line num="530" count="0" type="stmt"/>
+            <line num="531" count="0" type="stmt"/>
+            <line num="532" count="0" type="stmt"/>
+            <line num="534" count="0" type="stmt"/>
+            <line num="535" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="535" type="cond"/>
+            <line num="536" count="0" type="stmt"/>
+            <line num="538" count="0" type="stmt"/>
+            <line num="539" count="0" type="stmt"/>
+            <line num="541" count="0" type="stmt"/>
+            <line num="542" count="0" type="stmt"/>
+            <line num="544" count="0" type="stmt"/>
+            <line num="545" count="0" type="stmt"/>
+            <line num="546" count="0" type="stmt"/>
+            <line num="548" count="0" type="stmt"/>
+            <line num="549" count="0" type="stmt"/>
+            <line num="551" count="0" type="stmt"/>
+            <line num="552" count="0" type="stmt"/>
+            <line num="554" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="554" type="cond"/>
+            <line num="557" count="0" type="stmt"/>
+            <line num="558" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="558" type="cond"/>
+            <line num="560" count="0" type="stmt"/>
+            <line num="562" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="562" type="cond"/>
+            <line num="563" count="0" type="stmt"/>
+            <line num="564" count="0" type="stmt"/>
+            <line num="566" count="0" type="stmt"/>
+            <line num="568" count="0" type="stmt"/>
+            <line num="569" count="0" type="stmt"/>
+            <line num="572" count="0" type="stmt"/>
+            <line num="574" count="0" type="stmt"/>
+            <line num="575" count="0" type="stmt"/>
+            <line complexity="11" visibility="public" signature="play() : void" num="586" count="0" type="method"/>
+            <line num="588" count="0" type="stmt"/>
+            <line num="590" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="590" type="cond"/>
+            <line num="591" count="0" type="stmt"/>
+            <line num="592" count="0" type="stmt"/>
+            <line num="594" count="0" type="stmt"/>
+            <line num="596" count="0" type="stmt"/>
+            <line num="597" count="0" type="stmt"/>
+            <line num="598" count="0" type="stmt"/>
+            <line num="599" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="599" type="cond"/>
+            <line num="600" count="0" type="stmt"/>
+            <line num="601" count="0" type="stmt"/>
+            <line num="602" count="0" type="stmt"/>
+            <line num="603" count="0" type="stmt"/>
+            <line num="604" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="604" type="cond"/>
+            <line num="606" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="606" type="cond"/>
+            <line num="607" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="607" type="cond"/>
+            <line num="611" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="611" type="cond"/>
+            <line num="612" count="0" type="stmt"/>
+            <line num="614" count="0" type="stmt"/>
+            <line num="615" count="0" type="stmt"/>
+            <line num="616" count="0" type="stmt"/>
+            <line num="617" count="0" type="stmt"/>
+            <line num="619" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="619" type="cond"/>
+            <line num="621" count="0" type="stmt"/>
+            <line num="622" count="0" type="stmt"/>
+            <line num="623" count="0" type="stmt"/>
+            <line num="624" count="0" type="stmt"/>
+            <line num="626" count="0" type="stmt"/>
+            <line num="631" count="0" type="stmt"/>
+            <line num="637" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="637" type="cond"/>
+            <line num="638" count="0" type="stmt"/>
+            <line num="639" count="0" type="stmt"/>
+            <line num="640" count="0" type="stmt"/>
+            <line num="641" count="0" type="stmt"/>
+            <line num="642" count="0" type="stmt"/>
+            <line num="646" count="0" type="stmt"/>
+            <line num="647" count="0" type="stmt"/>
+            <line num="648" count="0" type="stmt"/>
+            <line num="649" count="0" type="stmt"/>
+            <line num="650" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="650" type="cond"/>
+            <line num="651" count="0" type="stmt"/>
+            <line num="653" count="0" type="stmt"/>
+            <line num="654" count="0" type="stmt"/>
+            <line num="655" count="0" type="stmt"/>
+            <line num="656" count="0" type="stmt"/>
+            <line num="660" count="0" type="stmt"/>
+            <line num="663" count="0" type="stmt"/>
+            <line num="664" count="0" type="stmt"/>
+            <line num="666" count="0" type="stmt"/>
+            <line num="667" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="667" type="cond"/>
+            <line num="668" count="0" type="stmt"/>
+            <line num="669" count="0" type="stmt"/>
+            <line num="671" count="0" type="stmt"/>
+            <line num="674" count="0" type="stmt"/>
+            <line num="676" count="0" type="stmt"/>
+            <line num="679" count="0" type="stmt"/>
+            <line num="680" count="0" type="stmt"/>
+            <line complexity="8" visibility="public" signature="run() : void" num="684" count="0" type="method"/>
+            <line num="686" count="0" type="stmt"/>
+            <line num="688" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="688" type="cond"/>
+            <line num="689" count="0" type="stmt"/>
+            <line num="690" count="0" type="stmt"/>
+            <line num="694" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="694" type="cond"/>
+            <line num="695" count="0" type="stmt"/>
+            <line num="696" count="0" type="stmt"/>
+            <line num="697" count="0" type="stmt"/>
+            <line num="698" count="0" type="stmt"/>
+            <line num="702" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="702" type="cond"/>
+            <line num="703" count="0" type="stmt"/>
+            <line num="708" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="708" type="cond"/>
+            <line num="709" count="0" type="stmt"/>
+            <line num="713" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="713" type="cond"/>
+            <line num="714" count="0" type="stmt"/>
+            <line num="715" count="0" type="stmt"/>
+            <line num="718" count="0" type="stmt"/>
+            <line num="721" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="721" type="cond"/>
+            <line num="722" count="0" type="stmt"/>
+            <line num="724" count="0" type="stmt"/>
+            <line complexity="1" visibility="private" signature="hashPassword(String) : String" num="731" count="0" type="method"/>
+            <line num="732" count="0" type="stmt"/>
+            <line num="733" count="0" type="stmt"/>
+            <line num="734" count="0" type="stmt"/>
+            <line num="735" count="0" type="stmt"/>
+            <line num="737" count="0" type="stmt"/>
+            <line num="739" count="0" type="stmt"/>
+            <line complexity="8" visibility="private" signature="handle_connection(Socket) : int" num="742" count="0" type="method"/>
+            <line num="744" count="0" type="stmt"/>
+            <line num="745" count="0" type="stmt"/>
+            <line num="746" count="0" type="stmt"/>
+            <line num="747" count="0" type="stmt"/>
+            <line num="748" count="0" type="stmt"/>
+            <line num="749" count="0" type="stmt"/>
+            <line num="750" count="0" type="stmt"/>
+            <line num="751" count="0" type="stmt"/>
+            <line num="752" count="0" type="stmt"/>
+            <line num="753" count="0" type="stmt"/>
+            <line num="754" count="0" type="stmt"/>
+            <line num="759" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="759" type="cond"/>
+            <line num="760" count="0" type="stmt"/>
+            <line num="761" count="0" type="stmt"/>
+            <line num="762" count="0" type="stmt"/>
+            <line num="763" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="763" type="cond"/>
+            <line num="765" count="0" type="stmt"/>
+            <line num="766" count="0" type="stmt"/>
+            <line num="768" count="0" type="stmt"/>
+            <line num="770" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="770" type="cond"/>
+            <line num="771" count="0" type="stmt"/>
+            <line num="772" count="0" type="stmt"/>
+            <line num="774" count="0" type="stmt"/>
+            <line num="777" count="0" type="stmt"/>
+            <line num="779" count="0" type="stmt"/>
+            <line num="780" count="0" type="stmt"/>
+            <line num="781" count="0" type="stmt"/>
+            <line num="782" count="0" type="stmt"/>
+            <line num="783" count="0" type="stmt"/>
+            <line num="784" count="0" type="stmt"/>
+            <line num="785" count="0" type="stmt"/>
+            <line num="786" count="0" type="stmt"/>
+            <line num="787" count="0" type="stmt"/>
+            <line num="788" count="0" type="stmt"/>
+            <line num="789" count="0" type="stmt"/>
+            <line num="790" count="0" type="stmt"/>
+            <line num="791" count="0" type="stmt"/>
+            <line num="793" count="0" type="stmt"/>
+            <line num="798" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="798" type="cond"/>
+            <line num="799" count="0" type="stmt"/>
+            <line num="800" count="0" type="stmt"/>
+            <line num="801" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="801" type="cond"/>
+            <line num="802" count="0" type="stmt"/>
+            <line num="803" count="0" type="stmt"/>
+            <line num="805" count="0" type="stmt"/>
+            <line num="807" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="807" type="cond"/>
+            <line num="808" count="0" type="stmt"/>
+            <line num="809" count="0" type="stmt"/>
+            <line num="810" count="0" type="stmt"/>
+            <line num="812" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="812" type="cond"/>
+            <line num="813" count="0" type="stmt"/>
+            <line num="814" count="0" type="stmt"/>
+            <line num="815" count="0" type="stmt"/>
+            <line num="818" count="0" type="stmt"/>
+            <line num="820" count="0" type="stmt"/>
+            <line num="821" count="0" type="stmt"/>
+            <line num="822" count="0" type="stmt"/>
+            <line num="823" count="0" type="stmt"/>
+            <line num="824" count="0" type="stmt"/>
+            <line num="825" count="0" type="stmt"/>
+            <line num="826" count="0" type="stmt"/>
+            <line num="827" count="0" type="stmt"/>
+            <line num="829" count="0" type="stmt"/>
+         </file>
+         <file path="/home/dsr/ece651/ece651-team12-risc/server/src/main/java/edu/duke/ece651/team12/server/App.java" name="App.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="2" loc="77" coveredmethods="0" methods="2" elements="8" classes="1" ncloc="20" statements="6" conditionals="0" coveredstatements="0"/>
+            <class name="App">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="2" coveredmethods="0" methods="2" elements="8" statements="6" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="main(String[]) : void" num="10" count="0" type="method"/>
+            <line num="66" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="run() : void" num="67" count="0" type="method"/>
+            <line num="69" count="0" type="stmt"/>
+            <line num="70" count="0" type="stmt"/>
+            <line num="73" count="0" type="stmt"/>
+            <line num="74" count="0" type="stmt"/>
+            <line num="75" count="0" type="stmt"/>
+         </file>
+         <file path="/home/dsr/ece651/ece651-team12-risc/server/src/main/java/edu/duke/ece651/team12/server/Server.java" name="Server.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="19" loc="143" coveredmethods="0" methods="5" elements="102" classes="1" ncloc="132" statements="77" conditionals="20" coveredstatements="0"/>
+            <class name="Server">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="19" coveredmethods="0" methods="5" elements="102" statements="77" conditionals="20" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="Server(int,int,int,BufferedReader,PrintStream,String,int)" num="21" count="0" type="method"/>
+            <line num="28" count="0" type="stmt"/>
+            <line num="29" count="0" type="stmt"/>
+            <line num="30" count="0" type="stmt"/>
+            <line num="31" count="0" type="stmt"/>
+            <line num="32" count="0" type="stmt"/>
+            <line num="33" count="0" type="stmt"/>
+            <line complexity="1" visibility="private" signature="SocketError(int) : void" num="36" count="0" type="method"/>
+            <line num="37" count="0" type="stmt"/>
+            <line num="38" count="0" type="stmt"/>
+            <line num="39" count="0" type="stmt"/>
+            <line num="40" count="0" type="stmt"/>
+            <line num="41" count="0" type="stmt"/>
+            <line num="42" count="0" type="stmt"/>
+            <line complexity="5" visibility="public" signature="init() : void" num="45" count="0" type="method"/>
+            <line num="46" count="0" type="stmt"/>
+            <line num="47" count="0" type="stmt"/>
+            <line num="48" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="48" type="cond"/>
+            <line num="49" count="0" type="stmt"/>
+            <line num="50" count="0" type="stmt"/>
+            <line num="51" count="0" type="stmt"/>
+            <line num="52" count="0" type="stmt"/>
+            <line num="54" count="0" type="stmt"/>
+            <line num="55" count="0" type="stmt"/>
+            <line num="56" count="0" type="stmt"/>
+            <line num="58" count="0" type="stmt"/>
+            <line num="59" count="0" type="stmt"/>
+            <line num="60" count="0" type="stmt"/>
+            <line num="61" count="0" type="stmt"/>
+            <line num="62" count="0" type="stmt"/>
+            <line num="63" count="0" type="stmt"/>
+            <line num="64" count="0" type="stmt"/>
+            <line num="65" count="0" type="stmt"/>
+            <line num="66" count="0" type="stmt"/>
+            <line num="69" count="0" type="stmt"/>
+            <line num="70" count="0" type="stmt"/>
+            <line num="71" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="71" type="cond"/>
+            <line num="72" count="0" type="stmt"/>
+            <line num="73" count="0" type="stmt"/>
+            <line num="74" count="0" type="stmt"/>
+            <line num="75" count="0" type="stmt"/>
+            <line num="76" count="0" type="stmt"/>
+            <line num="77" count="0" type="stmt"/>
+            <line num="78" count="0" type="stmt"/>
+            <line num="79" count="0" type="stmt"/>
+            <line num="80" count="0" type="stmt"/>
+            <line num="81" count="0" type="stmt"/>
+            <line num="83" count="0" type="stmt"/>
+            <line num="84" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="84" type="cond"/>
+            <line num="85" count="0" type="stmt"/>
+            <line num="87" count="0" type="stmt"/>
+            <line num="89" count="0" type="stmt"/>
+            <line num="90" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="90" type="cond"/>
+            <line num="91" count="0" type="stmt"/>
+            <line num="92" count="0" type="stmt"/>
+            <line complexity="11" visibility="public" signature="play() : void" num="96" count="0" type="method"/>
+            <line num="97" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="97" type="cond"/>
+            <line num="98" count="0" type="stmt"/>
+            <line num="99" count="0" type="stmt"/>
+            <line num="100" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="100" type="cond"/>
+            <line num="101" count="0" type="stmt"/>
+            <line num="102" count="0" type="stmt"/>
+            <line num="103" count="0" type="stmt"/>
+            <line num="104" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="104" type="cond"/>
+            <line num="105" count="0" type="stmt"/>
+            <line num="109" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="109" type="cond"/>
+            <line num="110" count="0" type="stmt"/>
+            <line num="112" count="0" type="stmt"/>
+            <line num="115" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="115" type="cond"/>
+            <line num="116" count="0" type="stmt"/>
+            <line num="118" count="0" type="stmt"/>
+            <line num="121" count="0" type="stmt"/>
+            <line num="122" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="122" type="cond"/>
+            <line num="123" count="0" type="stmt"/>
+            <line num="124" count="0" type="stmt"/>
+            <line num="125" count="0" type="stmt"/>
+            <line num="128" count="0" type="stmt"/>
+            <line num="131" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="end() : void" num="137" count="0" type="method"/>
+            <line num="138" count="0" type="stmt"/>
+            <line num="139" count="0" type="stmt"/>
+            <line num="141" count="0" type="stmt"/>
+         </file>
+         <file path="/home/dsr/ece651/ece651-team12-risc/server/src/test/java/edu/duke/ece651/team12/server/ServerTest.java" name="ServerTest.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="0" loc="44" coveredmethods="0" methods="0" elements="0" classes="1" ncloc="9" statements="0" conditionals="0" coveredstatements="0"/>
+            <class name="ServerTest">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="0" coveredmethods="0" methods="0" elements="0" statements="0" conditionals="0" coveredstatements="0"/>
+            </class>
+         </file>
+         <file path="/home/dsr/ece651/ece651-team12-risc/server/src/test/java/edu/duke/ece651/team12/server/AppTest.java" name="AppTest.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="6" loc="133" coveredmethods="0" methods="4" elements="26" classes="3" ncloc="48" statements="22" conditionals="0" coveredstatements="0"/>
+            <class name="AppTest">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="1" coveredmethods="0" methods="1" elements="3" statements="2" conditionals="0" coveredstatements="0"/>
+            </class>
+            <class name="AppTest.runserver">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="3" coveredmethods="0" methods="2" elements="10" statements="8" conditionals="0" coveredstatements="0"/>
+            </class>
+            <class name="AppTest.runserver2">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="2" coveredmethods="0" methods="1" elements="13" statements="12" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="runserver(String)" num="8" count="0" type="method"/>
+            <line num="8" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="run() : void" num="9" count="0" type="method"/>
+            <line num="11" count="0" type="stmt"/>
+            <line num="12" count="0" type="stmt"/>
+            <line num="14" count="0" type="stmt"/>
+            <line num="15" count="0" type="stmt"/>
+            <line num="16" count="0" type="stmt"/>
+            <line num="17" count="0" type="stmt"/>
+            <line num="18" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="run() : void" num="58" count="0" type="method"/>
+            <line num="60" count="0" type="stmt"/>
+            <line num="61" count="0" type="stmt"/>
+            <line num="62" count="0" type="stmt"/>
+            <line num="63" count="0" type="stmt"/>
+            <line num="64" count="0" type="stmt"/>
+            <line num="65" count="0" type="stmt"/>
+            <line num="66" count="0" type="stmt"/>
+            <line num="68" count="0" type="stmt"/>
+            <line num="69" count="0" type="stmt"/>
+            <line num="70" count="0" type="stmt"/>
+            <line num="71" count="0" type="stmt"/>
+            <line num="72" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="test2() : void" num="79" count="0" type="method"/>
+            <line num="82" count="0" type="stmt"/>
+            <line num="83" count="0" type="stmt"/>
+         </file>
+      </package>
+   </project>
+   <testproject name="server" timestamp="1681186238024">
+      <metrics coveredelements="3" complexity="2" loc="37" methods="2" classes="2" statements="1" packages="1" coveredconditionals="0" coveredmethods="2" elements="3" ncloc="18" files="2" conditionals="0" coveredstatements="1"/>
+      <package name="edu.duke.ece651.team12.server">
+         <metrics coveredelements="3" complexity="2" loc="37" methods="2" classes="2" statements="1" coveredconditionals="0" coveredmethods="2" elements="3" ncloc="18" files="2" conditionals="0" coveredstatements="1"/>
+         <file path="/home/dsr/ece651/ece651-team12-risc/server/src/test/java/edu/duke/ece651/team12/server/V2ServerTest.java" name="V2ServerTest.java">
+            <metrics coveredelements="1" coveredconditionals="0" complexity="1" loc="10" coveredmethods="1" methods="1" elements="1" classes="1" ncloc="7" statements="0" conditionals="0" coveredstatements="0"/>
+            <class name="V2ServerTest">
+               <metrics coveredelements="1" complexity="1" methods="1" testruns="1" statements="0" coveredconditionals="0" coveredmethods="1" elements="1" testfailures="0" testduration="0.002" conditionals="0" coveredstatements="0" testpasses="1"/>
+            </class>
+            <line complexity="1" visibility="public" signature="test() : void" num="8" testsuccess="true" count="1" testduration="0.002" type="method"/>
+         </file>
+         <file path="/home/dsr/ece651/ece651-team12-risc/server/src/test/java/edu/duke/ece651/team12/server/V3ServerTest.java" name="V3ServerTest.java">
+            <metrics coveredelements="2" coveredconditionals="0" complexity="1" loc="27" coveredmethods="1" methods="1" elements="2" classes="1" ncloc="11" statements="1" conditionals="0" coveredstatements="1"/>
+            <class name="V3ServerTest">
+               <metrics coveredelements="2" complexity="1" methods="1" testruns="1" statements="1" coveredconditionals="0" coveredmethods="1" elements="2" testfailures="0" testduration="0.002" conditionals="0" coveredstatements="1" testpasses="1"/>
+            </class>
+            <line complexity="1" visibility="public" signature="test_() : void" num="10" testsuccess="true" count="1" testduration="0.002" type="method"/>
+            <line num="12" count="1" type="stmt"/>
+         </file>
+      </package>
+   </testproject>
+</coverage>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.team12.shared.TextMapDisplayerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-23T17:24:43" hostname="DSR" time="0.001">
+  <properties/>
+  <testcase name="test()" classname="edu.duke.ece651.team12.shared.TextMapDisplayerTest" time="0.001"/>
+  <system-out><![CDATA[Middle Earth has 4 territoires, controlled by 3 players.
+Your territories:
+0. Mordor. Onwer: Sauron
+Food production: 0
+Tech production: 0
+Shirriff: 0
+Gondorian Militia: 0
+Rohirrim: 0
+Dwarvish Warrior: 0
+Elvish Archer: 0
+Oliphaunt Rider: 0
+Balrog: 0
+total: 0 units
+Neighbors: 1 3 
+Spys:
+Cloaking turns: 0
+
+====================
+
+Enemy Territorires:
+
+you have no intel on territory 2.
+
+====================
+
+1. Gondor. Onwer: Aragon
+Food production: 0
+Tech production: 0
+Shirriff: 1
+Gondorian Militia: 0
+Rohirrim: 0
+Dwarvish Warrior: 0
+Elvish Archer: 0
+Oliphaunt Rider: 0
+Balrog: 0
+total: 1 units
+Spys:
+
+3. Gondorrrrr. Onwer: Aragon
+Food production: 0
+Tech production: 0
+Shirriff: 1
+Gondorian Militia: 0
+Rohirrim: 0
+Dwarvish Warrior: 0
+Elvish Archer: 0
+Oliphaunt Rider: 0
+Balrog: 0
+total: 1 units
+Spys:
+
+
+====================
+
+
+Adjacency Matrix:
+
+   |000|001|002|003|
+000|   | * |   | * |000
+001| * |   |   | * |001
+002|   |   |   |   |002
+003| * | * |   |   |003
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

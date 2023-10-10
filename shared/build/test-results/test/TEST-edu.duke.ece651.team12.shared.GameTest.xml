@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.team12.shared.GameTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-23T17:24:43" hostname="DSR" time="0.017">
+  <properties/>
+  <testcase name="test()" classname="edu.duke.ece651.team12.shared.GameTest" time="0.017"/>
+  <system-out><![CDATA[=================
+Initiating RISC. World name: Middle Earth, number of participants: 2.
+=================
+24
+ID: 0
+Name: GDF
+Color: Red
+ID: 1
+Name: Yoda
+Color: Green
+0, owned by ID: 0
+Name: GDF
+Color: Red, with 10 units. 
+1, owned by ID: 0
+Name: GDF
+Color: Red, with 10 units. 
+2, owned by ID: 0
+Name: GDF
+Color: Red, with 10 units. 
+3, owned by ID: 0
+Name: GDF
+Color: Red, with 10 units. 
+4, owned by ID: 0
+Name: GDF
+Color: Red, with 10 units. 
+5, owned by ID: 0
+Name: GDF
+Color: Red, with 10 units. 
+6, owned by ID: 0
+Name: GDF
+Color: Red, with 10 units. 
+7, owned by ID: 0
+Name: GDF
+Color: Red, with 10 units. 
+8, owned by ID: 0
+Name: GDF
+Color: Red, with 10 units. 
+9, owned by ID: 0
+Name: GDF
+Color: Red, with 10 units. 
+10, owned by ID: 0
+Name: GDF
+Color: Red, with 10 units. 
+11, owned by ID: 0
+Name: GDF
+Color: Red, with 10 units. 
+12, owned by ID: 1
+Name: Yoda
+Color: Green, with 10 units. 
+13, owned by ID: 1
+Name: Yoda
+Color: Green, with 10 units. 
+14, owned by ID: 1
+Name: Yoda
+Color: Green, with 10 units. 
+15, owned by ID: 1
+Name: Yoda
+Color: Green, with 10 units. 
+16, owned by ID: 1
+Name: Yoda
+Color: Green, with 10 units. 
+17, owned by ID: 1
+Name: Yoda
+Color: Green, with 10 units. 
+18, owned by ID: 1
+Name: Yoda
+Color: Green, with 10 units. 
+19, owned by ID: 1
+Name: Yoda
+Color: Green, with 10 units. 
+20, owned by ID: 1
+Name: Yoda
+Color: Green, with 10 units. 
+21, owned by ID: 1
+Name: Yoda
+Color: Green, with 10 units. 
+22, owned by ID: 1
+Name: Yoda
+Color: Green, with 10 units. 
+23, owned by ID: 1
+Name: Yoda
+Color: Green, with 10 units. 
+All quiet on the Lindon front.
+All quiet on the Annuminas front.
+All quiet on the The Shire front.
+All quiet on the Amon Sul front.
+All quiet on the Imladris front.
+All quiet on the Angmar front.
+All quiet on the Minhiriath front.
+All quiet on the Enedwaith front.
+All quiet on the Gundabad front.
+All quiet on the Khazad-dûm front.
+All quiet on the Gladden Fields front.
+All quiet on the Mirkwood front.
+All quiet on the Erebor front.
+All quiet on the Lothlorien front.
+All quiet on the Fangorn Forest front.
+All quiet on the Dunland front.
+All quiet on the Rohan front.
+All quiet on the Gondor front.
+All quiet on the Dagorlad front.
+All quiet on the Ithilien front.
+All quiet on the Barad-dur front.
+All quiet on the Nurnen front.
+All quiet on the Harad front.
+Moving 1 Units from 11 to 12 each costs 2 units of food.
+===Battle of Dol Guldur===
+Defender: Yoda, with 10 units.
+Attacker(s): 
+GDF, with 1 units.
+Battle Start.
+===============================
+Skirmish breaks out between Yoda and GDF
+Yoda gets advantage. 
+Weak side throws 18
+Strong side throws 5
+Defender has lvl 6 units number: 0
+Defender has lvl 5 units number: 0
+Defender has lvl 4 units number: 0
+Defender has lvl 3 units number: 0
+Defender has lvl 2 units number: 0
+Defender has lvl 1 units number: 0
+Defender has lvl 0 units number: 10
+Strong side gets lvl 0 unit. final dice: 5. remaining such level units: 10
+Attacker has lvl 0 units number: 1
+Weak side gets lvl 0 unit. final dice: 18. remaining such level units: 1
+attacker wins with lvl 0 unit, over defender's lvl 0 unit.
+Yoda loses skirmish with level 0 unit.
+Yoda continues fight with 9 units.
+Fight continue.
+GDF gets advantage. 
+Weak side throws 6
+Strong side throws 3
+Defender has lvl 6 units number: 0
+Defender has lvl 5 units number: 0
+Defender has lvl 4 units number: 0
+Defender has lvl 3 units number: 0
+Defender has lvl 2 units number: 0
+Defender has lvl 1 units number: 0
+Defender has lvl 0 units number: 1
+Strong side gets lvl 0 unit. final dice: 3. remaining such level units: 1
+Attacker has lvl 0 units number: 9
+Weak side gets lvl 0 unit. final dice: 6. remaining such level units: 9
+attacker wins with lvl 0 unit, over defender's lvl 0 unit.
+GDF loses skirmish with level 0 unit.
+GDF withdraws.
+Yoda won the Battle of Dol Guldur, holding their position in the territory.
+Increasing GDF's tech lvl
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

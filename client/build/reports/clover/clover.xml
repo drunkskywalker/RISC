@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1681243559585" clover="4.4.1">
+   <project name="client" timestamp="1681243559531">
+      <metrics coveredelements="2" complexity="45" loc="530" methods="21" classes="5" statements="227" packages="1" coveredconditionals="0" coveredmethods="1" elements="290" ncloc="391" files="5" conditionals="42" coveredstatements="1"/>
+      <package name="edu.duke.ece651.team12.client">
+         <metrics coveredelements="2" complexity="45" loc="530" methods="21" classes="5" statements="227" coveredconditionals="0" coveredmethods="1" elements="290" ncloc="391" files="5" conditionals="42" coveredstatements="1"/>
+         <file path="/home/dsr/ece651/ece651-team12-risc/client/src/main/java/edu/duke/ece651/team12/client/V3Client.java" name="V3Client.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="24" loc="224" coveredmethods="0" methods="12" elements="141" classes="1" ncloc="188" statements="109" conditionals="20" coveredstatements="0"/>
+            <class name="V3Client">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="24" coveredmethods="0" methods="12" elements="141" statements="109" conditionals="20" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="V3Client(String,int,BufferedReader,PrintStream)" num="29" count="0" type="method"/>
+            <line num="30" count="0" type="stmt"/>
+            <line num="31" count="0" type="stmt"/>
+            <line num="32" count="0" type="stmt"/>
+            <line num="33" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="connect() : void" num="38" count="0" type="method"/>
+            <line num="39" count="0" type="stmt"/>
+            <line num="41" count="0" type="stmt"/>
+            <line num="42" count="0" type="stmt"/>
+            <line num="43" count="0" type="stmt"/>
+            <line num="44" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="Login(String,String) : SimpleEntry&lt;Integer, String&gt;" num="50" count="0" type="method"/>
+            <line num="52" count="0" type="stmt"/>
+            <line num="53" count="0" type="stmt"/>
+            <line num="54" count="0" type="stmt"/>
+            <line num="55" count="0" type="stmt"/>
+            <line num="56" count="0" type="stmt"/>
+            <line num="57" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="Register(String,String,String) : SimpleEntry&lt;Integer, String&gt;" num="63" count="0" type="method"/>
+            <line num="67" count="0" type="stmt"/>
+            <line num="68" count="0" type="stmt"/>
+            <line num="69" count="0" type="stmt"/>
+            <line num="70" count="0" type="stmt"/>
+            <line num="71" count="0" type="stmt"/>
+            <line num="72" count="0" type="stmt"/>
+            <line num="73" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="availableGames() : HashMap&lt;Integer, String&gt;" num="76" count="0" type="method"/>
+            <line num="78" count="0" type="stmt"/>
+            <line num="79" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="newGame(int) : SimpleEntry&lt;Integer, String&gt;" num="84" count="0" type="method"/>
+            <line num="86" count="0" type="stmt"/>
+            <line num="87" count="0" type="stmt"/>
+            <line num="88" count="0" type="stmt"/>
+            <line num="89" count="0" type="stmt"/>
+            <line num="90" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="joinGame(int) : SimpleEntry&lt;Integer, String&gt;" num="96" count="0" type="method"/>
+            <line num="98" count="0" type="stmt"/>
+            <line num="99" count="0" type="stmt"/>
+            <line num="100" count="0" type="stmt"/>
+            <line num="101" count="0" type="stmt"/>
+            <line complexity="7" visibility="public" signature="initGame(String) : void" num="104" count="0" type="method"/>
+            <line num="105" count="0" type="stmt"/>
+            <line num="106" count="0" type="stmt"/>
+            <line num="107" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="107" type="cond"/>
+            <line num="108" count="0" type="stmt"/>
+            <line num="109" count="0" type="stmt"/>
+            <line num="110" count="0" type="stmt"/>
+            <line num="111" count="0" type="stmt"/>
+            <line num="112" count="0" type="stmt"/>
+            <line num="113" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="113" type="cond"/>
+            <line num="114" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="114" type="cond"/>
+            <line num="115" count="0" type="stmt"/>
+            <line num="116" count="0" type="stmt"/>
+            <line num="119" count="0" type="stmt"/>
+            <line num="120" count="0" type="stmt"/>
+            <line num="121" count="0" type="stmt"/>
+            <line num="122" count="0" type="stmt"/>
+            <line num="123" count="0" type="stmt"/>
+            <line num="124" count="0" type="stmt"/>
+            <line num="125" count="0" type="stmt"/>
+            <line num="126" count="0" type="stmt"/>
+            <line num="127" count="0" type="stmt"/>
+            <line num="128" count="0" type="stmt"/>
+            <line num="129" count="0" type="stmt"/>
+            <line num="132" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="132" type="cond"/>
+            <line num="133" count="0" type="stmt"/>
+            <line num="134" count="0" type="stmt"/>
+            <line num="135" count="0" type="stmt"/>
+            <line num="136" count="0" type="stmt"/>
+            <line num="137" count="0" type="stmt"/>
+            <line num="138" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="138" type="cond"/>
+            <line num="139" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="139" type="cond"/>
+            <line num="140" count="0" type="stmt"/>
+            <line num="141" count="0" type="stmt"/>
+            <line num="144" count="0" type="stmt"/>
+            <line num="145" count="0" type="stmt"/>
+            <line num="146" count="0" type="stmt"/>
+            <line num="148" count="0" type="stmt"/>
+            <line num="149" count="0" type="stmt"/>
+            <line num="150" count="0" type="stmt"/>
+            <line num="151" count="0" type="stmt"/>
+            <line complexity="1" visibility="private" signature="initMap(ArrayList&lt;TurnResponse&gt;) : void" num="155" count="0" type="method"/>
+            <line num="157" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="restoreMap() : void" num="160" count="0" type="method"/>
+            <line num="161" count="0" type="stmt"/>
+            <line num="163" count="0" type="stmt"/>
+            <line num="165" count="0" type="stmt"/>
+            <line num="166" count="0" type="stmt"/>
+            <line num="168" count="0" type="stmt"/>
+            <line num="169" count="0" type="stmt"/>
+            <line num="170" count="0" type="stmt"/>
+            <line complexity="6" visibility="public" signature="Play() : void" num="177" count="0" type="method"/>
+            <line num="178" count="0" type="stmt"/>
+            <line num="179" count="0" type="stmt"/>
+            <line num="180" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="180" type="cond"/>
+            <line num="181" count="0" type="stmt"/>
+            <line num="183" count="0" type="stmt"/>
+            <line num="184" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="184" type="cond"/>
+            <line num="185" count="0" type="stmt"/>
+            <line num="186" count="0" type="stmt"/>
+            <line num="187" count="0" type="stmt"/>
+            <line num="188" count="0" type="stmt"/>
+            <line num="190" count="0" type="stmt"/>
+            <line num="191" count="0" type="stmt"/>
+            <line num="193" count="0" type="stmt"/>
+            <line num="194" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="194" type="cond"/>
+            <line num="195" count="0" type="stmt"/>
+            <line num="197" count="0" type="stmt"/>
+            <line num="201" count="0" type="stmt"/>
+            <line num="202" count="0" type="stmt"/>
+            <line num="203" count="0" type="stmt"/>
+            <line num="204" count="0" type="stmt"/>
+            <line num="205" count="0" type="stmt"/>
+            <line num="206" count="0" type="stmt"/>
+            <line num="207" count="0" type="stmt"/>
+            <line num="210" count="0" type="stmt"/>
+            <line num="211" count="0" type="stmt"/>
+            <line num="212" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="close() : void" num="219" count="0" type="method"/>
+            <line num="220" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="220" type="cond"/>
+            <line num="221" count="0" type="stmt"/>
+         </file>
+         <file path="/home/dsr/ece651/ece651-team12-risc/client/src/main/java/edu/duke/ece651/team12/client/GameStart.java" name="GameStart.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="1" loc="30" coveredmethods="0" methods="1" elements="11" classes="1" ncloc="24" statements="10" conditionals="0" coveredstatements="0"/>
+            <class name="GameStart">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="1" coveredmethods="0" methods="1" elements="11" statements="10" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="start(Stage) : void" num="16" count="0" type="method"/>
+            <line num="18" count="0" type="stmt"/>
+            <line num="19" count="0" type="stmt"/>
+            <line num="20" count="0" type="stmt"/>
+            <line num="21" count="0" type="stmt"/>
+            <line num="23" count="0" type="stmt"/>
+            <line num="24" count="0" type="stmt"/>
+            <line num="25" count="0" type="stmt"/>
+            <line num="26" count="0" type="stmt"/>
+            <line num="27" count="0" type="stmt"/>
+            <line num="28" count="0" type="stmt"/>
+         </file>
+         <file path="/home/dsr/ece651/ece651-team12-risc/client/src/main/java/edu/duke/ece651/team12/client/Client.java" name="Client.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="10" loc="90" coveredmethods="0" methods="5" elements="65" classes="1" ncloc="83" statements="50" conditionals="10" coveredstatements="0"/>
+            <class name="Client">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="10" coveredmethods="0" methods="5" elements="65" statements="50" conditionals="10" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="Client(String,int,BufferedReader,PrintStream)" num="18" count="0" type="method"/>
+            <line num="19" count="0" type="stmt"/>
+            <line num="20" count="0" type="stmt"/>
+            <line num="21" count="0" type="stmt"/>
+            <line num="22" count="0" type="stmt"/>
+            <line complexity="4" visibility="public" signature="getName(int,int) : String" num="25" count="0" type="method"/>
+            <line num="26" count="0" type="stmt"/>
+            <line num="27" count="0" type="stmt"/>
+            <line num="28" count="0" type="stmt"/>
+            <line num="29" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="29" type="cond"/>
+            <line num="30" count="0" type="stmt"/>
+            <line num="32" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="32" type="cond"/>
+            <line num="33" count="0" type="stmt"/>
+            <line num="35" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="35" type="cond"/>
+            <line num="36" count="0" type="stmt"/>
+            <line num="39" count="0" type="stmt"/>
+            <line num="41" count="0" type="stmt"/>
+            <line num="43" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="init() : void" num="46" count="0" type="method"/>
+            <line num="47" count="0" type="stmt"/>
+            <line num="48" count="0" type="stmt"/>
+            <line num="49" count="0" type="stmt"/>
+            <line num="50" count="0" type="stmt"/>
+            <line num="51" count="0" type="stmt"/>
+            <line num="52" count="0" type="stmt"/>
+            <line num="53" count="0" type="stmt"/>
+            <line num="54" count="0" type="stmt"/>
+            <line num="55" count="0" type="stmt"/>
+            <line num="56" count="0" type="stmt"/>
+            <line num="57" count="0" type="stmt"/>
+            <line num="58" count="0" type="stmt"/>
+            <line num="59" count="0" type="stmt"/>
+            <line num="60" count="0" type="stmt"/>
+            <line num="61" count="0" type="stmt"/>
+            <line num="62" count="0" type="stmt"/>
+            <line num="63" count="0" type="stmt"/>
+            <line num="64" count="0" type="stmt"/>
+            <line num="65" count="0" type="stmt"/>
+            <line num="66" count="0" type="stmt"/>
+            <line num="67" count="0" type="stmt"/>
+            <line num="68" count="0" type="stmt"/>
+            <line num="69" count="0" type="stmt"/>
+            <line num="70" count="0" type="stmt"/>
+            <line num="71" count="0" type="stmt"/>
+            <line num="72" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="play() : void" num="75" count="0" type="method"/>
+            <line num="76" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="76" type="cond"/>
+            <line num="77" count="0" type="stmt"/>
+            <line num="78" count="0" type="stmt"/>
+            <line num="79" count="0" type="stmt"/>
+            <line num="80" count="0" type="stmt"/>
+            <line num="81" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="end() : void" num="85" count="0" type="method"/>
+            <line num="86" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="86" type="cond"/>
+            <line num="87" count="0" type="stmt"/>
+         </file>
+         <file path="/home/dsr/ece651/ece651-team12-risc/client/src/main/java/edu/duke/ece651/team12/client/App.java" name="App.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="8" loc="165" coveredmethods="0" methods="1" elements="62" classes="1" ncloc="78" statements="49" conditionals="12" coveredstatements="0"/>
+            <class name="App">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="8" coveredmethods="0" methods="1" elements="62" statements="49" conditionals="12" coveredstatements="0"/>
+            </class>
+            <line complexity="8" visibility="public" signature="main(String[]) : void" num="15" count="0" type="method"/>
+            <line num="93" count="0" type="stmt"/>
+            <line num="94" count="0" type="stmt"/>
+            <line num="95" count="0" type="stmt"/>
+            <line num="97" count="0" type="stmt"/>
+            <line num="98" count="0" type="stmt"/>
+            <line num="99" count="0" type="stmt"/>
+            <line num="100" count="0" type="stmt"/>
+            <line num="101" count="0" type="stmt"/>
+            <line num="102" count="0" type="stmt"/>
+            <line num="103" count="0" type="stmt"/>
+            <line num="104" count="0" type="stmt"/>
+            <line num="105" count="0" type="stmt"/>
+            <line num="106" count="0" type="stmt"/>
+            <line num="109" count="0" type="stmt"/>
+            <line num="112" count="0" type="stmt"/>
+            <line num="113" count="0" type="stmt"/>
+            <line num="115" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="115" type="cond"/>
+            <line num="116" count="0" type="stmt"/>
+            <line num="117" count="0" type="stmt"/>
+            <line num="118" count="0" type="stmt"/>
+            <line num="119" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="119" type="cond"/>
+            <line num="120" count="0" type="stmt"/>
+            <line num="124" count="0" type="stmt"/>
+            <line num="125" count="0" type="stmt"/>
+            <line num="126" count="0" type="stmt"/>
+            <line num="127" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="127" type="cond"/>
+            <line num="128" count="0" type="stmt"/>
+            <line num="132" count="0" type="stmt"/>
+            <line num="133" count="0" type="stmt"/>
+            <line num="135" count="0" type="stmt"/>
+            <line num="136" count="0" type="stmt"/>
+            <line num="137" count="0" type="stmt"/>
+            <line num="138" count="0" type="stmt"/>
+            <line num="140" count="0" type="stmt"/>
+            <line num="141" count="0" type="stmt"/>
+            <line num="142" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="142" type="cond"/>
+            <line num="143" count="0" type="stmt"/>
+            <line num="144" count="0" type="stmt"/>
+            <line num="145" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="145" type="cond"/>
+            <line num="146" count="0" type="stmt"/>
+            <line num="147" count="0" type="stmt"/>
+            <line num="151" count="0" type="stmt"/>
+            <line num="152" count="0" type="stmt"/>
+            <line num="154" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="154" type="cond"/>
+            <line num="155" count="0" type="stmt"/>
+            <line num="156" count="0" type="stmt"/>
+            <line num="159" count="0" type="stmt"/>
+            <line num="161" count="0" type="stmt"/>
+            <line num="162" count="0" type="stmt"/>
+         </file>
+         <file path="/home/dsr/ece651/ece651-team12-risc/client/src/main/java/edu/duke/ece651/team12/client/V2Client.java" name="V2Client.java">
+            <metrics coveredelements="2" coveredconditionals="0" complexity="2" loc="21" coveredmethods="1" methods="2" elements="11" classes="1" ncloc="18" statements="9" conditionals="0" coveredstatements="1"/>
+            <class name="V2Client">
+               <metrics coveredelements="2" coveredconditionals="0" complexity="2" coveredmethods="1" methods="2" elements="11" statements="9" conditionals="0" coveredstatements="1"/>
+            </class>
+            <line complexity="1" visibility="public" signature="V2Client(int)" num="9" count="1" type="method"/>
+            <line num="9" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="main() : void" num="10" count="0" type="method"/>
+            <line num="11" count="0" type="stmt"/>
+            <line num="13" count="0" type="stmt"/>
+            <line num="14" count="0" type="stmt"/>
+            <line num="15" count="0" type="stmt"/>
+            <line num="16" count="0" type="stmt"/>
+            <line num="17" count="0" type="stmt"/>
+            <line num="18" count="0" type="stmt"/>
+            <line num="19" count="0" type="stmt"/>
+         </file>
+      </package>
+   </project>
+   <testproject name="client" timestamp="1681243559531">
+      <metrics coveredelements="5" complexity="9" loc="188" methods="5" classes="5" statements="95" packages="1" coveredconditionals="0" coveredmethods="2" elements="104" ncloc="162" files="4" conditionals="4" coveredstatements="3"/>
+      <package name="edu.duke.ece651.team12.client">
+         <metrics coveredelements="5" complexity="9" loc="188" methods="5" classes="5" statements="95" coveredconditionals="0" coveredmethods="2" elements="104" ncloc="162" files="4" conditionals="4" coveredstatements="3"/>
+         <file path="/home/dsr/ece651/ece651-team12-risc/client/src/test/java/edu/duke/ece651/team12/client/V2ClientTest.java" name="V2ClientTest.java">
+            <metrics coveredelements="4" coveredconditionals="0" complexity="2" loc="26" coveredmethods="1" methods="1" elements="11" classes="1" ncloc="23" statements="10" conditionals="0" coveredstatements="3"/>
+            <class name="V2ClientTest">
+               <metrics coveredelements="4" complexity="2" methods="1" testruns="1" statements="10" coveredconditionals="0" coveredmethods="1" elements="11" testfailures="0" testduration="0.005" conditionals="0" coveredstatements="3" testpasses="1"/>
+            </class>
+            <line complexity="2" visibility="public" signature="test_() : void" num="9" testsuccess="true" count="1" testduration="0.005" type="method"/>
+            <line num="11" count="1" type="stmt"/>
+            <line num="12" count="1" type="stmt"/>
+            <line num="13" count="1" type="stmt"/>
+            <line num="15" count="0" type="stmt"/>
+            <line num="16" count="0" type="stmt"/>
+            <line num="17" count="0" type="stmt"/>
+            <line num="18" count="0" type="stmt"/>
+            <line num="19" count="0" type="stmt"/>
+            <line num="20" count="0" type="stmt"/>
+            <line num="21" count="0" type="stmt"/>
+         </file>
+         <file path="/home/dsr/ece651/ece651-team12-risc/client/src/test/java/edu/duke/ece651/team12/client/AppTest.java" name="AppTest.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="5" loc="120" coveredmethods="0" methods="2" elements="83" classes="2" ncloc="111" statements="77" conditionals="4" coveredstatements="0"/>
+            <class name="AppTest">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="1" coveredmethods="0" methods="1" elements="21" statements="20" conditionals="0" coveredstatements="0"/>
+            </class>
+            <class name="AppTest.mockServer">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="4" coveredmethods="0" methods="1" elements="62" statements="57" conditionals="4" coveredstatements="0"/>
+            </class>
+            <line complexity="4" visibility="public" signature="run() : void" num="22" count="0" type="method"/>
+            <line num="24" count="0" type="stmt"/>
+            <line num="25" count="0" type="stmt"/>
+            <line num="26" count="0" type="stmt"/>
+            <line num="27" count="0" type="stmt"/>
+            <line num="28" count="0" type="stmt"/>
+            <line num="29" count="0" type="stmt"/>
+            <line num="31" count="0" type="stmt"/>
+            <line num="32" count="0" type="stmt"/>
+            <line num="33" count="0" type="stmt"/>
+            <line num="34" count="0" type="stmt"/>
+            <line num="35" count="0" type="stmt"/>
+            <line num="36" count="0" type="stmt"/>
+            <line num="37" count="0" type="stmt"/>
+            <line num="38" count="0" type="stmt"/>
+            <line num="39" count="0" type="stmt"/>
+            <line num="40" count="0" type="stmt"/>
+            <line num="41" count="0" type="stmt"/>
+            <line num="42" count="0" type="stmt"/>
+            <line num="43" count="0" type="stmt"/>
+            <line num="44" count="0" type="stmt"/>
+            <line num="45" count="0" type="stmt"/>
+            <line num="46" count="0" type="stmt"/>
+            <line num="47" count="0" type="stmt"/>
+            <line num="48" count="0" type="stmt"/>
+            <line num="49" count="0" type="stmt"/>
+            <line num="50" count="0" type="stmt"/>
+            <line num="51" count="0" type="stmt"/>
+            <line num="52" count="0" type="stmt"/>
+            <line num="53" count="0" type="stmt"/>
+            <line num="54" count="0" type="stmt"/>
+            <line num="55" count="0" type="stmt"/>
+            <line num="56" count="0" type="stmt"/>
+            <line num="57" count="0" type="stmt"/>
+            <line num="58" count="0" type="stmt"/>
+            <line num="59" count="0" type="stmt"/>
+            <line num="60" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="60" type="cond"/>
+            <line num="61" count="0" type="stmt"/>
+            <line num="63" count="0" type="stmt"/>
+            <line num="64" count="0" type="stmt"/>
+            <line num="65" count="0" type="stmt"/>
+            <line num="67" count="0" type="stmt"/>
+            <line num="68" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="68" type="cond"/>
+            <line num="69" count="0" type="stmt"/>
+            <line num="72" count="0" type="stmt"/>
+            <line num="73" count="0" type="stmt"/>
+            <line num="74" count="0" type="stmt"/>
+            <line num="75" count="0" type="stmt"/>
+            <line num="77" count="0" type="stmt"/>
+            <line num="78" count="0" type="stmt"/>
+            <line num="79" count="0" type="stmt"/>
+            <line num="80" count="0" type="stmt"/>
+            <line num="81" count="0" type="stmt"/>
+            <line num="82" count="0" type="stmt"/>
+            <line num="83" count="0" type="stmt"/>
+            <line num="84" count="0" type="stmt"/>
+            <line num="85" count="0" type="stmt"/>
+            <line num="88" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="test() : void" num="92" count="0" type="method"/>
+            <line num="95" count="0" type="stmt"/>
+            <line num="96" count="0" type="stmt"/>
+            <line num="98" count="0" type="stmt"/>
+            <line num="100" count="0" type="stmt"/>
+            <line num="101" count="0" type="stmt"/>
+            <line num="103" count="0" type="stmt"/>
+            <line num="104" count="0" type="stmt"/>
+            <line num="105" count="0" type="stmt"/>
+            <line num="106" count="0" type="stmt"/>
+            <line num="107" count="0" type="stmt"/>
+            <line num="108" count="0" type="stmt"/>
+            <line num="109" count="0" type="stmt"/>
+            <line num="110" count="0" type="stmt"/>
+            <line num="112" count="0" type="stmt"/>
+            <line num="113" count="0" type="stmt"/>
+            <line num="114" count="0" type="stmt"/>
+            <line num="115" count="0" type="stmt"/>
+            <line num="116" count="0" type="stmt"/>
+            <line num="117" count="0" type="stmt"/>
+            <line num="118" count="0" type="stmt"/>
+         </file>
+         <file path="/home/dsr/ece651/ece651-team12-risc/client/src/test/java/edu/duke/ece651/team12/client/V3ClientTest.java" name="V3ClientTest.java">
+            <metrics coveredelements="1" coveredconditionals="0" complexity="1" loc="10" coveredmethods="1" methods="1" elements="1" classes="1" ncloc="7" statements="0" conditionals="0" coveredstatements="0"/>
+            <class name="V3ClientTest">
+               <metrics coveredelements="1" complexity="1" methods="1" testruns="1" statements="0" coveredconditionals="0" coveredmethods="1" elements="1" testfailures="0" testduration="0.0" conditionals="0" coveredstatements="0" testpasses="1"/>
+            </class>
+            <line complexity="1" visibility="public" signature="test_() : void" num="8" testsuccess="true" count="1" testduration="0.0" type="method"/>
+         </file>
+         <file path="/home/dsr/ece651/ece651-team12-risc/client/src/test/java/edu/duke/ece651/team12/client/ClientTest.java" name="ClientTest.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="1" loc="32" coveredmethods="0" methods="1" elements="9" classes="1" ncloc="21" statements="8" conditionals="0" coveredstatements="0"/>
+            <class name="ClientTest">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="1" coveredmethods="0" methods="1" elements="9" statements="8" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="test() : void" num="9" count="0" type="method"/>
+            <line num="12" count="0" type="stmt"/>
+            <line num="15" count="0" type="stmt"/>
+            <line num="16" count="0" type="stmt"/>
+            <line num="26" count="0" type="stmt"/>
+            <line num="27" count="0" type="stmt"/>
+            <line num="28" count="0" type="stmt"/>
+            <line num="29" count="0" type="stmt"/>
+            <line num="30" count="0" type="stmt"/>
+         </file>
+      </package>
+   </testproject>
+</coverage>

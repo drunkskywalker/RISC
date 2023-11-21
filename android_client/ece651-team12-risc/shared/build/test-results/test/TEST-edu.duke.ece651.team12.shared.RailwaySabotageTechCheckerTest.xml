@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.duke.ece651.team12.shared.RailwaySabotageTechCheckerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-23T17:24:43" hostname="DSR" time="0.0">
-  <properties/>
-  <testcase name="test_()" classname="edu.duke.ece651.team12.shared.RailwaySabotageTechCheckerTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

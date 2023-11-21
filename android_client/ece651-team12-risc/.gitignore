@@ -1,8 +1,0 @@
-# This file contains files and folders that will not be pushed to the project
-.gradle
-.vscode
-.classpath
-.project
-.settings
-# temp files
-*~

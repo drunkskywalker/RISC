@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/drawable/item_game_selector.xml" value="0.112" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/drawable/shape_big_rect_blue.xml" value="0.1055" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/drawable/shape_rect_white.xml" value="0.112" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/activity_game_commit.xml" value="0.14749893116716545" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/activity_game_homepage.xml" value="0.13467293715262932" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/activity_game_join.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/activity_game_main.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/activity_game_new.xml" value="0.13467293715262932" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/activity_game_operation.xml" value="0.22" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/activity_game_research.xml" value="0.14749893116716545" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/activity_game_start.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/activity_game_switch.xml" value="0.14749893116716545" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/activity_game_unit_init.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/activity_game_upgrade.xml" value="0.14749893116716545" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/activity_game_wait.xml" value="0.13467293715262932" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/activity_login.xml" value="0.11757161179991449" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/game_commit_panel.xml" value="0.1466438648995297" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/game_homepage_panel.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/game_join_panel.xml" value="0.13467293715262932" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/game_operation_panel.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/game_research_panel.xml" value="0.14749893116716545" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/game_switch_panel.xml" value="0.14749893116716545" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/game_units_init_panel.xml" value="0.13467293715262932" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/game_upgrade_panel.xml" value="0.14749893116716545" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/game_wait_panel.xml" value="0.14749893116716545" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/homepage_horizontal_bar.xml" value="0.13467293715262932" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/item_unit_init.xml" value="0.13467293715262932" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/layout/simple_horizontal_bar.xml" value="0.13467293715262932" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game/app/src/main/res/menu/options_side_menu.xml" value="0.22" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable-hdpi/shape_small_rect_blue.xml" value="0.1215" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable-v24/shape_rect_white_small.xml" value="0.1455" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/ic_baseline_cruelty_free_24.xml" value="0.1585" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/ic_baseline_face_4_24.xml" value="0.1585" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/ic_baseline_logout_24.xml" value="0.1585" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/ic_flag_svgrepo_com.xml" value="0.1215" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1585" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/ic_options.xml" value="0.109" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/ic_untitled_1.xml" value="0.1585" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/shape_big_rect_blue.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/shape_cell_body.xml" value="0.1455" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/shape_cell_title.xml" value="0.1455" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/shape_rect_white.xml" value="0.1455" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/shape_rect_white_small.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/shape_rect_white_vine_border.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/shape_small_rect_blue.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/shape_small_rect_emerald_green.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/shape_small_rect_green.xml" value="0.1215" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/shape_small_rect_light_blue.xml" value="0.135" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/shape_small_rect_orange.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/shape_small_rect_pink.xml" value="0.1215" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/shape_small_rect_r_blue.xml" value="0.1245" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/shape_small_rect_real_blue.xml" value="0.1245" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/drawable/shape_small_rect_red.xml" value="0.1245" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout-land/game_homepage_panel.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout-land/game_upgrade_panel.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout-land/game_wait_panel.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout-land/info_dialog.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout-land/popup_dialog_right.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout-land/table_display_units.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout-land/table_new_territory_info.xml" value="0.22" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout-land/test.xml" value="0.1388888888888889" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/activity_game_commit.xml" value="0.1640625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/activity_game_entry.xml" value="0.1796875" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/activity_game_fogwar.xml" value="0.1640625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/activity_game_fogwaractivity.xml" value="0.1796875" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/activity_game_homepage.xml" value="0.22" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/activity_game_join.xml" value="0.1796875" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/activity_game_new.xml" value="0.1640625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/activity_game_operation.xml" value="0.10364583333333334" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/activity_game_railway.xml" value="0.1796875" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/activity_game_research.xml" value="0.1640625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/activity_game_start.xml" value="0.12817028985507245" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/activity_game_switch.xml" value="0.11145833333333334" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/activity_game_unit_init.xml" value="0.125" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/activity_game_upgrade.xml" value="0.1640625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/activity_login.xml" value="0.1640625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/activity_login_register.xml" value="0.1640625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/activity_register.xml" value="0.1640625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/activity_test.xml" value="0.22" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/game_commit_panel.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/game_entry_panel.xml" value="0.1796875" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/game_fog_railway_operation.xml" value="0.1796875" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/game_fog_railway_operation_panel.xml" value="0.15211640211640212" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/game_fogwar_operation.xml" value="0.1702127659574468" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/game_fogwar_operation_panel.xml" value="0.1640625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/game_fogwar_panel.xml" value="0.1796875" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/game_homepage_panel.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/game_join_panel.xml" value="0.1796875" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/game_map.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/game_new_panel.xml" value="0.1640625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/game_operation_panel.xml" value="0.22" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/game_railway_panel.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/game_research_panel.xml" value="0.22" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/game_start_panel.xml" value="0.1640625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/game_switch_panel.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/game_units_init_panel.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/game_update_panel.xml" value="0.1640625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/game_upgrade_panel.xml" value="0.22" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/homepage_horizontal_bar.xml" value="0.1640625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/horizontal_bar.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/info_dialog.xml" value="0.13489583333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/item_game_base.xml" value="0.1640625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/item_unit_init.xml" value="0.13489583333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/item_unit_operation.xml" value="0.1796875" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/item_unit_upgrade.xml" value="0.1234375" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/item_upgrade.xml" value="0.1234375" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/los_dialog.xml" value="0.1640625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/lose_dialog.xml" value="0.1640625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/map.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/map_display.xml" value="0.10625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/popup_dialog_right.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/simple_horizontal_bar.xml" value="0.1640625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/table_display_units.xml" value="0.22" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/table_new_territory_info.xml" value="0.22" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/table_territory_info.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/waiting_dialog.xml" value="0.1640625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/layout/win_dialog.xml" value="0.1640625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/menu/options_side_menu.xml" value="0.1640625" />
+        <entry key="..\:/Android/AndroidStudioProjects/risc_game_evol3/app/src/main/res/menu/simple_options_side_menu.xml" value="0.1640625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

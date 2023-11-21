@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/et_unit_upgrade"
+    android:layout_width="50dp"
+    android:layout_height="35dp"
+    android:gravity="center"
+    android:inputType="number"
+    android:hint="move"
+    android:background="@color/grey"
+    android:textSize="12dp"
+    android:textStyle="bold"
+    app:fontFamily="@font/artifika" />

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tv_territory_id"
+            android:text="Territory ID"
+            android:padding="5dp"
+            android:gravity="center"
+            android:layout_span="2"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/emerald_green" >
+
+        <TextView
+            android:gravity="center"
+            android:text="Name"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/fresh_green" >
+
+        <TextView
+            android:id="@+id/tv_territory_name"
+            android:gravity="center"
+            android:text="☆☆☆"
+            android:textSize="8sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/emerald_green" >
+
+        <TextView
+            android:gravity="center"
+            android:text="Owner"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/fresh_green" >
+
+        <TextView
+            android:id="@+id/tv_territory_owner"
+            android:gravity="center"
+            android:text="☆☆☆"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika" />
+    </TableRow>
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/emerald_green" >
+
+        <TextView
+            android:gravity="center"
+            android:text="Food"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/fresh_green" >
+
+        <TextView
+            android:gravity="center"
+            android:text="Each"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika" />
+
+        <TextView
+            android:id="@+id/tv_territory_food_each"
+            android:gravity="center"
+            android:text="☆"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/fresh_green" >
+
+        <TextView
+            android:gravity="center"
+            android:text="Total"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika" />
+
+
+        <TextView
+            android:id="@+id/tv_territory_food_total"
+            android:gravity="center"
+            android:text="☆"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/emerald_green" >
+
+        <TextView
+            android:gravity="center"
+            android:text="Tech"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/fresh_green" >
+
+        <TextView
+            android:gravity="center"
+            android:text="Each"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika" />
+
+        <TextView
+            android:id="@+id/tv_territory_tech_each"
+            android:gravity="center"
+            android:text="☆"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/fresh_green" >
+
+        <TextView
+            android:gravity="center"
+            android:text="Total"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika" />
+
+        <TextView
+            android:id="@+id/tv_territory_tech_total"
+            android:gravity="center"
+            android:text="☆"
+            android:textSize="11sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/fresh_green" >
+
+        <TextView
+            android:gravity="center"
+            android:text="Level"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika" />
+
+        <TextView
+            android:id="@+id/tv_territory_tech_level"
+            android:gravity="center"
+            android:text="☆"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika" />
+    </TableRow>
+</TableLayout>

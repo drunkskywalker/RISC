@@ -1,0 +1,883 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/map_new_small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_territory_1"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="50sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="1"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_2"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="34sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="2"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_3"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="118sp"
+        android:layout_marginTop="100sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="3"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_4"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="215sp"
+        android:layout_marginTop="76sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="4"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_5"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="287sp"
+        android:layout_marginTop="101sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="5"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_6"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="275sp"
+        android:layout_marginTop="20sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="6"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_7"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="172sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="7"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_8"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="260sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="8"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_9"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="360sp"
+        android:layout_marginTop="136sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="9"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_10"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="192sp"
+        android:layout_marginTop="162sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="10"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_11"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="415sp"
+        android:layout_marginTop="112sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="11"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_12"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="360sp"
+        android:layout_marginTop="36sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="12"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_13"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="460sp"
+        android:layout_marginTop="36sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="13"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_14"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="460sp"
+        android:layout_marginTop="145sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="14"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_15"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="315sp"
+        android:layout_marginTop="208sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="15"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_16"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="236sp"
+        android:layout_marginTop="262sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="16"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_17"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="140sp"
+        android:layout_marginTop="216sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="17"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_18"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="153sp"
+        android:layout_marginTop="308sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="18"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_19"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="135sp"
+        android:layout_marginTop="365sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="19"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_20"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="410dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:text="20"
+        android:textColor="@color/transparent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_territory_21"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="355sp"
+        android:layout_marginTop="285sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="21"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_22"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="455sp"
+        android:layout_marginTop="292sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="22"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_23"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="442sp"
+        android:layout_marginTop="345sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="23"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_territory_24"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="280sp"
+        android:layout_marginTop="355sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_flag_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="24"
+        android:textColor="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_train_1_2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="60sp"
+        android:layout_marginTop="20sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="1_2"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_1_3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="63sp"
+        android:layout_marginTop="62sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="1_3"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_2_3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="108sp"
+        android:layout_marginTop="60sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="2_3"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_2_4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="158sp"
+        android:layout_marginTop="24sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="2_4"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_3_4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="80sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="3_4"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_3_7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="62sp"
+        android:layout_marginTop="130sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="3_7"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_4_5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="245sp"
+        android:layout_marginTop="75sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="4_5"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_4_6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="220sp"
+        android:layout_marginTop="40sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="4_6"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_4_10"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="190sp"
+        android:layout_marginTop="105sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="4_10"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_5_6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="272sp"
+        android:layout_marginTop="40sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="5_6"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_5_9"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="306sp"
+        android:layout_marginTop="110sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="5_9"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_7_8"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="38sp"
+        android:layout_marginTop="215sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="7_8"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_8_17"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="90sp"
+        android:layout_marginTop="225sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="8_17"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_9_10"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="270sp"
+        android:layout_marginTop="152sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="9_10"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_9_11"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="366sp"
+        android:layout_marginTop="100sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="9_11"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_10_15"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="230sp"
+        android:layout_marginTop="175sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="10_15"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_10_16"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="202sp"
+        android:layout_marginTop="192sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="10_16"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_10_17"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="143sp"
+        android:layout_marginTop="165sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="10_17"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_11_12"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="380sp"
+        android:layout_marginTop="45sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="11_12"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_11_13"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="430sp"
+        android:layout_marginTop="45sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="11_13"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_12_13"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="405sp"
+        android:layout_marginTop="20sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="12_13"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_11_15"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="365sp"
+        android:layout_marginTop="170sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="11_15"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_13_14"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="465sp"
+        android:layout_marginTop="100sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="13_14"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_13_20"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="432sp"
+        android:layout_marginTop="125sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="13_20"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_14_20"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="448sp"
+        android:layout_marginTop="178sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="14_20"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_15_16"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="255sp"
+        android:layout_marginTop="212sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="15_16"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_16_18"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="180sp"
+        android:layout_marginTop="260sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="16_18"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_17_19"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="285sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="17_19"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_18_19"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="122sp"
+        android:layout_marginTop="325sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="18_19"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_19_21"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="250sp"
+        android:layout_marginTop="305sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="19_21"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_20_22"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="445sp"
+        android:layout_marginTop="240sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="20_22"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_21_22"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="390sp"
+        android:layout_marginTop="280sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="21_22"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_21_24"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="315sp"
+        android:layout_marginTop="320sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="21_24"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_22_23"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="440sp"
+        android:layout_marginTop="310sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="22_23"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_train_23_24"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="355sp"
+        android:layout_marginTop="348sp"
+        android:color="@android:color/transparent"
+        android:scaleType="center"
+        android:background="@drawable/ic_tram_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="23_24"
+        android:textColor="@color/transparent"
+        android:visibility="invisible"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

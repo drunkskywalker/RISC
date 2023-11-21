@@ -1,0 +1,398 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_territory_id"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Territory ID"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/artifika"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Name"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika"
+            android:background="@color/emerald_green"/>
+
+        <TextView
+            android:id="@+id/tv_territory_name"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="☆☆☆"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika"
+            android:background="@color/fresh_green"/>
+
+    </LinearLayout>
+
+    <View style="@style/Divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Owner"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika"
+            android:background="@color/emerald_green"/>
+
+        <TextView
+            android:id="@+id/tv_territory_owner"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="☆☆☆"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika"
+            android:background="@color/fresh_green"/>
+
+    </LinearLayout>
+
+    <View style="@style/Divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Food"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika"
+            android:background="@color/emerald_green"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Each"
+                    android:textSize="8sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/artifika"
+                    android:background="@color/fresh_green"/>
+
+                <TextView
+                    android:id="@+id/tv_territory_food_each"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="☆☆☆"
+                    android:textSize="10sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/artifika"
+                    android:background="@color/fresh_green"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Total"
+                    android:textSize="8sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/artifika"
+                    android:background="@color/fresh_green"/>
+
+                <TextView
+                    android:id="@+id/tv_territory_food_total"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="☆☆☆"
+                    android:textSize="10sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/artifika"
+                    android:background="@color/fresh_green"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <View style="@style/Divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Tech"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika"
+            android:background="@color/emerald_green"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Each"
+                    android:textSize="8sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/artifika"
+                    android:background="@color/fresh_green"/>
+
+                <TextView
+                    android:id="@+id/tv_territory_tech_each"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="☆☆☆"
+                    android:textSize="10sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/artifika"
+                    android:background="@color/fresh_green"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Total"
+                    android:textSize="8sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/artifika"
+                    android:background="@color/fresh_green"/>
+
+                <TextView
+                    android:id="@+id/tv_territory_tech_total"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="☆☆☆"
+                    android:textSize="10sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/artifika"
+                    android:background="@color/fresh_green"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Level"
+                    android:textSize="8sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/artifika"
+                    android:background="@color/fresh_green"/>
+
+                <TextView
+                    android:id="@+id/tv_territory_tech_level"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="☆☆☆"
+                    android:textSize="10sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/artifika"
+                    android:background="@color/fresh_green"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View style="@style/Divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Spy"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika"
+            android:background="@color/emerald_green"/>
+
+        <TextView
+            android:id="@+id/tv_territory_spy"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="☆☆☆"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika"
+            android:background="@color/fresh_green"/>
+
+    </LinearLayout>
+
+    <View style="@style/Divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Cloaking"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika"
+            android:background="@color/emerald_green"/>
+
+        <TextView
+            android:id="@+id/tv_territory_cloaking_rounds"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="☆☆☆"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika"
+            android:background="@color/fresh_green"/>
+
+    </LinearLayout>
+
+    <View style="@style/Divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Scorch"
+            android:textSize="9sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika"
+            android:background="@color/emerald_green"/>
+
+        <TextView
+            android:id="@+id/tv_territory_scorch_rounds"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="☆☆☆"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@font/artifika"
+            android:background="@color/fresh_green"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/horizontal_bar"
+            android:layout_width="115dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"/>
+
+        <include
+            layout="@layout/table_display_units"
+            android:layout_width="115dp"
+            android:layout_height="364dp" />
+
+    </LinearLayout>
+
+
+    <include
+        layout="@layout/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="To know more info about territory, click INQUIRE below"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/artifika"
+                android:background="@drawable/shape_small_rect_light_blue"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="top">
+
+            <Button
+                android:id="@+id/btn_territory_inquiry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="inquire"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/artifika"
+                android:background="@drawable/shape_small_rect_green"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

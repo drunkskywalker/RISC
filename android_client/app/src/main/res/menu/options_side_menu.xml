@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item_home"
+        android:icon="@drawable/ic_home_24"
+        android:title="Home" />
+
+    <item android:id="@+id/item_move"
+        android:icon="@drawable/ic_move_down_svgrepo_com"
+        android:title="Move" />
+
+    <item android:id="@+id/item_attack"
+        android:icon="@drawable/ic_battle_svgrepo_com"
+        android:title="Attack" />
+
+    <item android:id="@+id/item_research"
+        android:icon="@drawable/ic_study_2_svgrepo_com"
+        android:title="Research" />
+
+    <item android:id="@+id/item_upgrade"
+        android:icon="@drawable/ic_increase_svgrepo_com"
+        android:title="Upgrade" />
+
+    <item android:id="@+id/item_fog_of_war"
+        android:icon="@drawable/ic_cloud_svgrepo_com"
+        android:title="Fog of War" />
+
+    <item android:id="@+id/item_railway"
+        android:icon="@drawable/ic_train_svgrepo_com_menu"
+        android:title="Railway" />
+
+    <item android:id="@+id/item_commit"
+        android:icon="@drawable/ic_submit_success_check_mark_svgrepo_com"
+        android:title="Commit" />
+
+    <item android:id="@+id/item_switch"
+        android:icon="@drawable/ic_switch_accounts_svgrepo_com"
+        android:title="Switch" />
+
+
+</menu>

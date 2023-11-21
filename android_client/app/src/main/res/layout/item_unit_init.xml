@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/et_unit_init"
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:inputType="number"
+    android:hint="Territory N/A"
+    android:background="@drawable/shape_cell_body"
+    android:textSize="13sp"
+    android:textColor="@color/white"
+    android:textStyle="bold"
+    app:fontFamily="@font/artifika" />
